@@ -25,7 +25,7 @@ defmodule PhoenixActiveLink.Mixfile do
   end
 
   defp deps do
-    [{:phoenix_html, "~> 2.10"},
+    [{:phoenix_html, "~> 3.0"},
 
      {:earmark, "~> 1.2", only: :dev},
      {:ex_doc, "~> 0.18", only: :dev}]
